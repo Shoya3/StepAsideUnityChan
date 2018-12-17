@@ -391,7 +391,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1157710285
+  randomSeed: -1563524467
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3737,17 +3737,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!114 &340370602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 340370597}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04c78be9a1c0a584a83a3b7ec15baa7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &340370603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4999,43 +4988,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1712984750}
---- !u!1 &1734629800 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100314, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
-  m_PrefabInternal: {fileID: 1549355875}
---- !u!114 &1734629803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1734629800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb22097ea09c6f54abcab875f29ab0e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1734629804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1734629800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb22097ea09c6f54abcab875f29ab0e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1734629805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1734629800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb22097ea09c6f54abcab875f29ab0e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1789391658
 GameObject:
   m_ObjectHideFlags: 0
@@ -5101,62 +5053,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 40, y: -100, z: -60}
---- !u!1 &1852009887 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100322, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
-  m_PrefabInternal: {fileID: 1549355875}
---- !u!114 &1852009889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1852009887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d31b7ff9577c45647a1264b1f7f53a32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1852009890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1852009887}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb22097ea09c6f54abcab875f29ab0e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1852009891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1852009887}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d31b7ff9577c45647a1264b1f7f53a32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1852009892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1852009887}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb22097ea09c6f54abcab875f29ab0e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1852009893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1852009887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0794c713416417e47916d25d24f212c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
