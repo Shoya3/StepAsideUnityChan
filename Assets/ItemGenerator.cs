@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ItemGenerator : MonoBehaviour {
     //carPrefabを入れる
-    
     public GameObject carPrefab;
     //coinPrefabを入れる
     public GameObject coinPrefab;
@@ -36,6 +35,7 @@ public class ItemGenerator : MonoBehaviour {
                 {
                     GameObject cone = Instantiate(conePrefab) as GameObject;
                     cone.transform.position= new Vector3(4 * j, cone.transform.position.y, i);
+                    Debug.Log("コーン生成" + Time.time);
                 }
             }
             else
@@ -53,12 +53,15 @@ public class ItemGenerator : MonoBehaviour {
                         //コインを生成
                         GameObject coin = Instantiate(coinPrefab) as GameObject;
                         coin.transform.position = new Vector3(posRange * j, coin.transform.position.y, i + offsetZ);
+                        Debug.Log("コイン生成" + Time.time);
 
-                    }else if (7 <= item && item <= 9)
+                    }
+                    else if (7 <= item && item <= 9)
                     {
                         //車を生成
                         GameObject car = Instantiate(carPrefab) as GameObject;
                         car.transform.position = new Vector3(posRange * j, car.transform.position.y, i + offsetZ);
+                        Debug.Log("車生成" + Time.time);
                     }
                 }
             }
